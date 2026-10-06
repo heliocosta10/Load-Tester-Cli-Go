@@ -218,26 +218,7 @@ Para executar:
 docker run --rm load-tester-go --url=http://google.com --requests=1000 --concurrency=10
 ```
 
-## Entrega
 
-O projeto foi separado em um repositório exclusivo, contendo somente os arquivos deste desafio.
-
-A branch principal deve ser:
-
-```text
-main
-```
-
-Depois de criar o repositório no GitHub:
-
-```bash
-git init
-git add .
-git commit -m "feat: implementa load tester em Go"
-git branch -M main
-git remote add origin https://github.com/heliocosta10/load-tester-go.git
-git push -u origin main
-```
 
 ## Observação
 
